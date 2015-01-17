@@ -4,7 +4,7 @@
  * Plugin URI: http://domain.com/cpt-master/
  * Description: Hey there! I'm your new starter plugin.
  * Version: 1.0.0
- * Author: Matty
+ * Author: Tiredbug
  * Author URI: http://domain.com/
  * Requires at least: 4.0.0
  * Tested up to: 4.0.0
@@ -14,7 +14,7 @@
  *
  * @package CPT_Master
  * @category Core
- * @author Matty
+ * @author Tiredbug
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly

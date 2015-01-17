@@ -339,7 +339,7 @@ class CPT_Master_Post_Type {
 	 */
 	public function enter_title_here ( $title ) {
 		if ( get_post_type() == $this->post_type ) {
-			$title = __( 'Enter the cpt-master title here', 'cpt-master' );
+			$title = __( 'Enter the CPT Master title here', 'cpt-master' );
 		}
 		return $title;
 	} // End enter_title_here()
@@ -354,7 +354,7 @@ class CPT_Master_Post_Type {
 
 		$fields['url'] = array(
 		    'name' => __( 'URL', 'cpt-master' ),
-		    'description' => __( 'Enter a URL that applies to this cpt-master (for example: http://domain.com/).', 'cpt-master' ),
+		    'description' => __( 'Enter a URL that applies to this CPT Master (for example: http://domain.com/).', 'cpt-master' ),
 		    'type' => 'url',
 		    'default' => '',
 		    'section' => 'info'

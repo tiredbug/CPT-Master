@@ -135,7 +135,7 @@ final class CPT_Master {
 		require_once( 'classes/class-cpt-master-taxonomy.php' );
 
 		// Register an example post type. To register other post types, duplicate this line.
-		$this->post_types['cpt-master'] = new CPT_Master_Post_Type( 'cpt-master', __( 'CPT Master', 'cpt-master' ), __( 'CPT Masters', 'cpt-master' ), array( 'menu_icon' => 'dashicons-carrot' ) );
+		$this->post_types['cpt-master'] = new CPT_Master_Post_Type( 'cpt-master', __( 'CPT Master', 'cpt-master' ), __( 'CPT Masters', 'cpt-master' ), array( 'menu_icon' => 'dashicons-portfolio' ) );
 		// Post Types - End
 		register_activation_hook( __FILE__, array( $this, 'install' ) );
 
